@@ -3,47 +3,138 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Contact — Colin Pedron</title>
+
+    <title>Contact | Colin Pedron</title>
+    <meta name="description" content="Contact Colin Pedron for forecasting, planning, and S&OP work." />
+
+    <link rel="canonical" href="https://www.colinpedron.com/contact.html" />
+    <meta name="robots" content="index,follow" />
+
+    <meta property="og:url" content="https://www.colinpedron.com/contact.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Contact | Colin Pedron" />
+    <meta
+      property="og:description"
+      content="Contact Colin Pedron for forecasting, planning, and S&OP work."
+    />
+
+    <meta name="twitter:card" content="summary" />
+
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" />
   </head>
 
   <body>
-    <div class="container">
-      <header>
-        <h1>Contact</h1>
-        <p>Get in touch.</p>
+    <a class="skip" href="#main">Skip to content</a>
 
-        <nav>
+    <header class="site-header">
+      <div class="container header-row">
+        <a class="brand" href="index.html" aria-label="Home">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-text">Colin Pedron</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="templates.html">Templates</a>
+          <a href="resume.html">Resume</a>
+          <a href="about.html">About</a>
+          <a class="active nav-cta" href="contact.html" aria-current="page">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="page-hero">
+        <div class="container page-hero-row">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h1>Quick and simple.</h1>
+            <p class="lead">Send a LinkedIn message with your cadence, data, and pain points.</p>
+          </div>
+
+          <div class="page-hero-actions">
+            <a
+              class="btn primary"
+              href="https://www.linkedin.com/in/colin-pedron"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Message on LinkedIn
+            </a>
+            <a class="btn" href="templates.html">Templates</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="two-col">
+            <div class="panel-card">
+              <h2>Best message format</h2>
+              <ul class="checklist">
+                <li>Industry and product mix</li>
+                <li>Planning horizon and cadence</li>
+                <li>Data sources and gaps</li>
+                <li>Top 3 decisions you need better</li>
+              </ul>
+            </div>
+
+            <div class="panel-card muted">
+              <h2>Contact</h2>
+              <div class="link-stack">
+                <a
+                  class="text-link"
+                  href="https://www.linkedin.com/in/colin-pedron"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn →
+                </a>
+                <a class="text-link" href="templates.html">Templates →</a>
+                <a class="text-link" href="resume.html">Resume →</a>
+              </div>
+
+              <p class="small spaced-top">
+                Prefer LinkedIn. Send a short note and I will respond.
+              </p>
+            </div>
+          </div>
+
+          <div class="panel-card spaced-top">
+            <h2>One message that works</h2>
+            <p class="small">
+              Hi Colin, I run planning for a mid-sized operation. We are trying to improve forecast accuracy and
+              planning execution. Our cadence is [weekly or monthly]. Our main issues are [1], [2], [3]. Can we
+              do a quick call to see if your templates or a light diagnostic fit?
+            </p>
+            <a
+              class="text-link"
+              href="https://www.linkedin.com/in/colin-pedron"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Send on LinkedIn →
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <p class="footer-text">© <span id="y"></span> Colin Pedron</p>
+        <div class="footer-links">
           <a href="index.html">Home</a>
           <a href="templates.html">Templates</a>
           <a href="resume.html">Resume</a>
-           <a href="about.html">About</a>
-        </nav>
-      </header>
+          <a href="about.html">About</a>
+        </div>
+      </div>
+    </footer>
 
-      <section class="card">
-        <p>
-          Email:<br />
-          <strong>Available upon request via LinkedIn</strong>
-        </p>
-
-        <p>
-          LinkedIn:<br />
-          <a href="https://www.linkedin.com/in/colin-pedron" target="_blank">
-            https://www.linkedin.com/in/colin-pedron
-          </a>
-        </p>
-
-        <p>
-          <em>
-            Please include brief context in your message.
-          </em>
-        </p>
-      </section>
-
-      <footer>
-        <p>© 2025 Colin Pedron</p>
-      </footer>
-    </div>
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
+
