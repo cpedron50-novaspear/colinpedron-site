@@ -18,10 +18,24 @@
     .btn { display: inline-block; padding: 10px 12px; border-radius: 10px; border: 1px solid #111; text-decoration: none; color: #111; }
     .btn.primary { background: #111; color: #fff; }
     .muted { color: #555; font-size: 0.95rem; }
+
+    /* simple site links */
+    nav { margin-bottom: 18px; }
+    nav a { color: #111; text-decoration: none; margin-right: 14px; }
+    nav a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
   <main class="wrap">
+
+    <!-- Site links -->
+    <nav aria-label="Site">
+      <a href="/">Home</a>
+      <a href="/templates">Templates</a>
+      <a href="/contact">Contact</a>
+      <a href="/resume">Resume</a>
+    </nav>
+
     <h1>Read Me</h1>
     <p class="muted">
       If you want a forecasting app, I can build one. I just do it in the order that avoids waste.
@@ -61,6 +75,8 @@
     <div class="btns">
       <a class="btn primary" href="/contact">Contact</a>
       <a class="btn" href="/templates">Templates</a>
+      <a class="btn" href="/">Home</a>
+      <a class="btn" href="/resume">Resume</a>
     </div>
 
     <h2>About</h2>
