@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<article class="post">
+  <div class="post-meta">
+    <span>{{ page.date | date: "%b %-d, %Y" }}</span>
+    {% if page.tags %}
+      <span class="post-tags">
+        {% for tag in page.tags %}
+          <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      </span>
+    {% endif %}
+  </div>
+
+  <div class="post-body">
+    {{ content }}
+  </div>
+
+  <div class="post-footer">
+    <a href="/blog.html">← Back to Blog</a>
+  </div>
+</article>
