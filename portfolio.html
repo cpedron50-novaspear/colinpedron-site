@@ -3,43 +3,189 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Portfolio — Colin Pedron</title>
+    <title>Portfolio | Colin Pedron</title>
+    <meta
+      name="description"
+      content="Selected forecasting and planning work: methods, outcomes, and lightweight demos."
+    />
     <link rel="stylesheet" href="style.css" />
+    <style>
+      /* Page-only tweaks to keep this self-contained */
+      .grid {
+        display: grid;
+        gap: 14px;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        margin-top: 14px;
+      }
+      .card {
+        border: 1px solid rgba(0, 0, 0, 0.12);
+        border-radius: 12px;
+        padding: 14px;
+        background: #fff;
+      }
+      .kicker {
+        font-size: 0.95rem;
+        opacity: 0.85;
+        margin: 6px 0 0;
+      }
+      .pillrow {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 10px;
+      }
+      .pill {
+        border: 1px solid rgba(0, 0, 0, 0.14);
+        border-radius: 999px;
+        padding: 6px 10px;
+        font-size: 0.9rem;
+        background: #fafafa;
+      }
+      .muted {
+        opacity: 0.8;
+      }
+      .tight ul {
+        margin: 10px 0 0;
+        padding-left: 18px;
+      }
+      .tight li {
+        margin: 6px 0;
+      }
+      .section {
+        margin-top: 22px;
+      }
+      .actions a {
+        display: inline-block;
+        margin-right: 10px;
+        margin-top: 8px;
+      }
+      .note {
+        border-left: 4px solid rgba(0, 0, 0, 0.18);
+        padding: 10px 12px;
+        border-radius: 10px;
+        background: #fafafa;
+        margin-top: 12px;
+      }
+    </style>
   </head>
 
   <body>
     <div class="container">
       <header>
         <h1>Portfolio</h1>
-        <p>Selected work demonstrating forecasting and S&OP capability.</p>
+        <p class="kicker">Practical forecasting outputs.</p>
 
         <nav>
           <a href="index.html">Home</a>
-          <a href="templates.html">Templates</a>
+          <a href="portfolio.html" aria-current="page">Portfolio</a>
           <a href="resume.html">Resume</a>
           <a href="contact.html">Contact</a>
+          <a href="about.html">About</a>
         </nav>
       </header>
 
-      <section class="card">
-        <h2>Forecasting & S&OP Planning Template</h2>
-        <p>
-          Designed a demand forecasting and production planning workflow using
-          off-the-shelf statistical models.
-        </p>
-        <p>
-          Emphasis on forecast accuracy, bias detection, and translating demand
-          signals into executable production plans.
-        </p>
-        <p>
-          <strong>Methods:</strong> historical demand analysis, accuracy metrics
-          (MAPE, WAPE), bias tracking, planning handoffs.
-        </p>
-      </section>
+      <main>
+        <section class="section">
+          <h2>What I ship</h2>
+          <div class="pillrow">
+            <span class="pill">Forecast evaluation</span>
+            <span class="pill">Bias control</span>
+            <span class="pill">Days on hand and capacity views</span>
+            <span class="pill">Planner-friendly dashboards</span>
+            <span class="pill">Decision rules</span>
+          </div>
+        </section>
 
-      <footer>
-        <p>© 2025 Colin Pedron</p>
+        <section class="section">
+          <h2>Selected work</h2>
+
+          <div class="grid">
+            <article class="card tight">
+              <h3>Forecast scorecard</h3>
+              <p class="muted">WAPE, bias, and trend checks that planners actually use.</p>
+              <ul>
+                <li>One view for product and family rollups</li>
+                <li>Exceptions list with root-cause tags</li>
+                <li>Weekly cadence and action log</li>
+              </ul>
+              <div class="note">
+                <strong>Public note:</strong> Demos use synthetic products and values.
+              </div>
+            </article>
+
+            <article class="card tight">
+              <h3>Inventory visibility</h3>
+              <p class="muted">Days on hand, receipts, and production signals in a single table.</p>
+              <ul>
+                <li>Targets by product class</li>
+                <li>Short-horizon watchlist</li>
+                <li>Clear highlight rules</li>
+              </ul>
+            </article>
+
+            <article class="card tight">
+              <h3>Planning decisions</h3>
+              <p class="muted">Rules that reduce churn and keep ops stable.</p>
+              <ul>
+                <li>Freeze windows and change limits</li>
+                <li>Make-buy and expedite triggers</li>
+                <li>Service impact callouts</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>Micro tools</h2>
+          <div class="grid">
+            <article class="card">
+              <h3>WAPE and bias quick calc</h3>
+              <p class="muted">Small, sharable, and easy to audit.</p>
+              <p class="actions">
+                <a href="contact.html">Request access</a>
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>Policy snippets</h3>
+              <p class="muted">Short playbooks for planners and ops leads.</p>
+              <p class="actions">
+                <a href="about.html">See approach</a>
+              </p>
+            </article>
+          </div>
+
+          <div class="note">
+            <strong>No public templates right now.</strong> If you want working sheets, use the contact page and tell me your industry and planning cadence.
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>Want a tailored version</h2>
+          <div class="grid">
+            <article class="card tight">
+              <h3>Fast intake</h3>
+              <ul>
+                <li>Planning horizon and cadence</li>
+                <li>Top 20 products or families</li>
+                <li>Service goal and constraints</li>
+              </ul>
+              <p class="actions">
+                <a href="contact.html">Contact</a>
+                <a href="resume.html">Resume</a>
+              </p>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="section">
+        <p class="muted">© <span id="y"></span> Colin Pedron</p>
       </footer>
     </div>
+
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
