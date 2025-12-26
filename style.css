@@ -434,4 +434,127 @@ h1{
   color: var(--text);
   background: rgba(255,255,255,0.04);
 }
+/* Portfolio */
+.chips{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.chip{
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.05);
+  color: var(--muted);
+  font-weight: 650;
+  font-size: 0.92rem;
+}
+
+.work-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+@media (max-width: 900px){
+  .work-grid{ grid-template-columns: 1fr; }
+}
+
+.work-card{
+  border-radius: var(--radius2);
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.045);
+  box-shadow: 0 10px 28px rgba(0,0,0,0.22);
+  overflow: hidden;
+  transition: transform 120ms ease, border-color 120ms ease, background 120ms ease;
+}
+
+.work-card:hover{
+  transform: translateY(-2px);
+  border-color: rgba(98,168,255,0.28);
+  background: rgba(255,255,255,0.055);
+}
+
+.work-thumb{
+  padding: 12px;
+  background: rgba(255,255,255,0.03);
+  border-bottom: 1px solid rgba(255,255,255,0.10);
+}
+
+.work-thumb-inner{
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background:
+    radial-gradient(420px 220px at 20% 10%, rgba(98,168,255,0.22), transparent 55%),
+    radial-gradient(420px 220px at 90% 50%, rgba(130,255,203,0.10), transparent 55%),
+    rgba(255,255,255,0.03);
+  padding: 14px;
+  min-height: 140px;
+  display: grid;
+  gap: 6px;
+  align-content: start;
+}
+
+.work-kicker{
+  color: var(--muted2);
+  font-size: 0.85rem;
+  letter-spacing: 0.4px;
+}
+
+.work-title{
+  color: var(--text);
+  font-weight: 750;
+  font-size: 1.02rem;
+  line-height: 1.2;
+}
+
+.work-meta{
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.work-body{
+  padding: 14px 16px 16px;
+}
+
+.work-body h3{
+  margin: 0 0 6px;
+  font-size: 1.05rem;
+}
+
+.work-body p{
+  margin: 0 0 12px;
+  color: var(--muted);
+}
+
+.work-actions{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.note-card{
+  margin-top: 14px;
+  border-radius: var(--radius2);
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.04);
+  padding: 12px 14px;
+  display: grid;
+  gap: 4px;
+}
+
+.note-title{
+  color: var(--muted2);
+  font-size: 0.86rem;
+  font-weight: 750;
+}
+
+.note-text{
+  color: var(--muted);
+  font-size: 0.95rem;
+}
 
