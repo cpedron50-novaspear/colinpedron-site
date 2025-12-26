@@ -557,4 +557,26 @@ h1{
   color: var(--muted);
   font-size: 0.95rem;
 }
+.content { margin-top: 18px; }
+
+.post-meta, .post-card-meta {
+  font-size: 0.95rem;
+  opacity: 0.8;
+  margin: 8px 0 14px;
+}
+
+.post-card { padding: 14px 0; border-bottom: 1px solid rgba(0,0,0,0.08); }
+.post-card-title { margin: 0 0 6px; font-size: 1.15rem; }
+.dot { margin: 0 8px; }
+
+.post-body h2, .post-body h3 { margin-top: 18px; }
+.tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border: 1px solid rgba(0,0,0,0.18);
+  border-radius: 999px;
+  font-size: 0.85rem;
+  margin-left: 6px;
+}
+.footer { margin-top: 28px; font-size: 0.95rem; opacity: 0.8; }
 
