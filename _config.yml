@@ -1,0 +1,9 @@
+title: Colin Pedron
+description: Forecasting made easy.
+permalink: /blog/:title/
+markdown: kramdown
+timezone: America/Chicago
+
+# Optional: makes local previews consistent
+kramdown:
+  input: GFM
