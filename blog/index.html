@@ -1,1 +1,32 @@
+---
+layout: default
+title: Blog
+description: Short notes on forecasting, planning, and building models that teams actually use. Will also comment on the latest AI models as the tech continues to develop. **not sponsored or paid for by any AI company**
+h1: Blog
+---
 
+<section class="blog-intro">
+  <p>Short notes on forecasting, production planning systems, and AI models.</p>
+</section>
+
+<section class="post-list">
+  {% if site.posts.size == 0 %}
+    <p>No posts yet.</p>
+  {% endif %}
+
+  {% for post in site.posts %}
+    <article class="post-card">
+      <h2 class="post-card-title">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </h2>
+
+      <div class="post-card-meta">
+        <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+        {% if post.description %}
+          <span class="dot">•</span>
+          <span>{{ post.description }}</span>
+        {% endif %}
+      </div>
+    </article>
+  {% endfor %}
+</section>
