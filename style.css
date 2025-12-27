@@ -579,4 +579,101 @@ h1{
   margin-left: 6px;
 }
 .footer { margin-top: 28px; font-size: 0.95rem; opacity: 0.8; }
+/* ---- Blog UI upgrade (cards + button nav) ---- */
+
+nav a {
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 0 8px 8px 0;
+  border: 1px solid rgba(255,255,255,0.16);
+  border-radius: 999px;
+  text-decoration: none;
+  line-height: 1;
+}
+
+nav a:hover {
+  border-color: rgba(255,255,255,0.28);
+  transform: translateY(-1px);
+}
+
+/* Make main content breathe */
+.content { margin-top: 18px; }
+.blog-intro { margin: 10px 0 18px; opacity: 0.95; }
+
+/* Card list */
+.post-list {
+  display: grid;
+  gap: 14px;
+  margin-top: 12px;
+}
+
+/* Individual post card */
+.post-card {
+  padding: 16px 16px;
+  border: 1px solid rgba(255,255,255,0.14);
+  border-radius: 14px;
+  background: rgba(255,255,255,0.03);
+  transition: transform 120ms ease, border-color 120ms ease, background 120ms ease;
+}
+
+.post-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255,255,255,0.26);
+  background: rgba(255,255,255,0.05);
+}
+
+.post-card-title {
+  margin: 0 0 8px;
+  font-size: 1.2rem;
+}
+
+.post-card-title a {
+  text-decoration: none;
+}
+
+.post-card-title a:hover {
+  text-decoration: underline;
+}
+
+.post-card-meta {
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+
+.dot { margin: 0 8px; opacity: 0.7; }
+
+/* Post page polish */
+.post {
+  padding: 18px 18px;
+  border: 1px solid rgba(255,255,255,0.14);
+  border-radius: 14px;
+  background: rgba(255,255,255,0.03);
+}
+
+.post-meta {
+  font-size: 0.95rem;
+  opacity: 0.85;
+  margin: 6px 0 14px;
+}
+
+.post-body h2, .post-body h3 {
+  margin-top: 18px;
+}
+
+.post-footer {
+  margin-top: 16px;
+}
+
+.post-footer a {
+  display: inline-block;
+  padding: 8px 12px;
+  border: 1px solid rgba(255,255,255,0.16);
+  border-radius: 999px;
+  text-decoration: none;
+}
+
+.post-footer a:hover {
+  border-color: rgba(255,255,255,0.28);
+  transform: translateY(-1px);
+}
 
