@@ -676,4 +676,15 @@ nav a:hover {
   border-color: rgba(255,255,255,0.28);
   transform: translateY(-1px);
 }
+.post-read{
+  display:inline-block;
+  padding:8px 12px;
+  border:1px solid rgba(255,255,255,0.16);
+  border-radius:999px;
+  text-decoration:none;
+}
+.post-read:hover{
+  border-color: rgba(255,255,255,0.28);
+  transform: translateY(-1px);
+}
 
