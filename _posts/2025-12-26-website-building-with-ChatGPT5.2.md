@@ -8,7 +8,7 @@ tags: [website, tooling, ai]
 
 I built out this website using AI-generated HTML code inserted into GitHub, and I hosted it on Cloudflare. No frameworks, templates, or paid web-building tools needed. 
 
-Only real cost (other than my time) was the $10 annual fee that I paid to Cloudflare to purchase this domain name (colinpedron.com). That'll renew automatically each year for the rest of time, or at least until my credit card stops working. 
+Only real cost (other than my time) was the $10 annual fee that I paid to Cloudflare to purchase the domain name. That'll renew automatically each year for the rest of time, or at least until my credit card stops working. 
 
 I used ChatGPT 5.2 for all aspects of setup for this site. The main design constraint was ease-of-maintenance. I wanted something I could update quickly without creating future work.
 
