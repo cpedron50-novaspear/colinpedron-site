@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Personal Traits for Resilience in the AI Era
-description: Three priorities for staying sturdy in the weird world of 2026: health, adaptability, and authenticity.
+description: "Three priorities for staying sturdy in the weird world of 2026: health, adaptability, and authenticity."
 h1: Personal Traits for Resilience in the AI Era
 ---
 
