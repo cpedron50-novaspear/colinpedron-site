@@ -1,28 +1,16 @@
 ---
 layout: post
 title: Personal Traits for Resilience in the AI Era
-description: A few priorities for staying sturdy in the weird world of 2026: Health, Adaptability, Authenticity.
+description: Three priorities for staying sturdy in the weird world of 2026: health, adaptability, and authenticity.
 h1: Personal Traits for Resilience in the AI Era
 ---
 
-<article class="post">
-    <section class ="post-body">
-      <p>A few priorities for staying sturdy in the weird world of 2026:</p>
-      
-      <ol>
-        <li>
-          <strong>Health:</strong> Be proactive about your personal wellness. AI doesn’t need to rest, and maintenance of your health will help you to maintain your own performance standards as well. In practical terms, increasing your household’s wellness budget can help to decrease the medical budget.
-        </li>
-      
-        <li>
-          <strong>Adaptability:</strong> Your ability to learn got you this far in life. Learn to use the latest tech, even if you don’t consider yourself a technical person. And even if the tech itself has nothing to do with what you learned in school or in prior years of your career (that’ll be true for most of us in regards to AI). It’s 2026 y’all, just lean in.
-        </li>
-      
-        <li>
-          <strong>Authenticity:</strong> Use AI when there’s a good use case for it, but don’t be sloppy about it. Remember that human labor is way more expensive than AI labor by any measure. You should continue to value your own contributions from your own brain (if you don’t, nobody else will). So if you use AI, ensure you’re fine tuning your final products to be practical and effective. Nobody wants to see more thoughtless AI slop, and they’re good at identifying outputs that you had no role in creating (we all see enough of that online). Put simply, use AI to extend your abilities and augment your strengths, not to outsource your critical thinking.
-        </li>
-      </ol>
-      
-      <p>That’s it! As a random aside, I’ll just mention that a website was launched this week that claims over 1M AI agents are interacting on their own social network w/o human input (it reads kinda like a freaky sci fi Reddit). Pretty weird, but as I’ve said before, this year is only gonna get weirder from here on in.</p>
-    </section>
-</article>
+A few priorities for staying sturdy in the weird world of 2026:
+
+1. **Health:** Be proactive about your personal wellness. AI doesn’t need to rest, and maintenance of your health will help you to maintain your own performance standards as well. In practical terms, increasing your household’s wellness budget can help to decrease the medical budget.
+
+2. **Adaptability:** Your ability to learn got you this far in life. Learn to use the latest tech, even if you don’t consider yourself a technical person. And even if the tech itself has nothing to do with what you learned in school or in prior years of your career (that’ll be true for most of us in regards to AI). It’s 2026 y’all, just lean in.
+
+3. **Authenticity:** Use AI when there’s a good use case for it, but don’t be sloppy about it. Remember that human labor is way more expensive than AI labor by any measure. You should continue to value your own contributions from your own brain (if you don’t, nobody else will). So if you use AI, ensure you’re fine tuning your final products to be practical and effective. Nobody wants to see more thoughtless AI slop, and they’re good at identifying outputs that you had no role in creating (we all see enough of that online). Put simply, use AI to extend your abilities and augment your strengths, not to outsource your critical thinking.
+
+That’s it! As a random aside, I’ll just mention that a website was launched this week that claims over 1M AI agents are interacting on their own social network w/o human input (it reads kinda like a freaky sci fi Reddit). Pretty weird, but as I’ve said before, this year is only gonna get weirder from here on in.
