@@ -1,24 +1,29 @@
 ---
-layout: default
+layout: blog
 ---
 
-<article class="post">
-  <div class="post-meta">
-    <span>{{ page.date | date: "%b %-d, %Y" }}</span>
-    {% if page.tags %}
-      <span class="post-tags">
+<article class="post-wrapper">
+  <header>
+    <div class="post-meta-top">
+      {% if page.tags %}
         {% for tag in page.tags %}
-          <span class="tag">{{ tag }}</span>
+          <span class="blog-tag">{{ tag }}</span>
         {% endfor %}
-      </span>
+      {% endif %}
+      <time class="post-date">{{ page.date | date: "%b %-d, %Y" }}</time>
+    </div>
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.description %}
+      <p class="post-desc">{{ page.description }}</p>
     {% endif %}
-  </div>
+    <div class="post-rule"></div>
+  </header>
 
-  <div class="post-body">
+  <section class="post-body">
     {{ content }}
-  </div>
+  </section>
 
-  <div class="post-footer">
-    <a href="/blog/">← Back to Blog</a>
+  <div class="post-back">
+    <a href="{{ '/blog/' | relative_url }}">&larr; All posts</a>
   </div>
 </article>
