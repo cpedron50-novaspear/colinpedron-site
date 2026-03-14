@@ -1,0 +1,9 @@
+title: "Colin's AI Blog"
+description: "Short notes on AI and systems."
+url: "https://colinpedron.com"
+baseurl: ""
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+exclude:
+  - README.md
+  - Colin_Pedron_Resume.pdf

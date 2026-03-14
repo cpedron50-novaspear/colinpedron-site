@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="blog-intro">
+  <p>What I'm learning about AI models, forecasting, and the operational systems underneath.</p>
+</div>
+
+<ul class="post-list">
+  {% for post in site.posts %}
+  <li>
+    <time class="post-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+    <a href="{{ post.url }}" class="post-link">{{ post.title }}</a>
+    {% if post.subtitle %}
+    <p class="post-summary">{{ post.subtitle }}</p>
+    {% endif %}
+    {% if post.tags.size > 0 %}
+    <div class="post-tags-inline">
+      {% for tag in post.tags %}
+      <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
