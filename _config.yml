@@ -1,9 +1,8 @@
 title: "Colin's AI Blog"
-description: "Short notes on AI and systems."
+description: "Notes on my evolving thought process around the use of AI in our weird new world. I used AI to design this website (which was pretty fun), but the blog posts are 100% written by me. Call me old school, I guess."
 url: "https://colinpedron.com"
 baseurl: ""
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title/
 exclude:
   - README.md
-  - Colin_Pedron_Resume.pdf
