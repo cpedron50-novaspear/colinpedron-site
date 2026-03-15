@@ -3,7 +3,7 @@ layout: post
 title: "Update on the race toward AGI"
 subtitle: "How the race toward Artificial General Intelligence (AGI) will impact you and your company in 2026 (in simple terms)."
 date: 2026-01-04
-tags: [ai, agi, strategy]
+---
 Update on the race toward AGI (and how it will impact you and your company this year in simple terms)
 I'm a bookworm at heart and a huge fan of sci-fi, but I know it's not everyone's thing. However, it's now 2026, and it's time for all of us to talk* about the sci-fi stuff that will drive global business outcomes in 2026: the international race to Artificial General Intelligence, or AGI.
 Even if you don't yet know what AGI is, you've benefitted from it (or rather, the race towards it) if you're one of the billion or so people who uses AI on a regular basis. Further, you'll be impacted by it even if you're not a frequent AI user. That's because the race toward AGI will be a key driver for the US and global economy for the foreseeable future.
