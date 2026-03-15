@@ -3,7 +3,6 @@ layout: post
 title: "The Black Box"
 subtitle: "Why AI surprises even the people who built it"
 date: 2026-02-28
-tags: [ai, strategy]
 ---
 
 A black box system is any system where both inputs and outputs are visible, but the transformation process in between isn't well understood. A lot of folks don't know that an AI's answers can be just as surprising to AI scientists as they are to the rest of us.
