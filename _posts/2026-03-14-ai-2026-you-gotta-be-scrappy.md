@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI 2026: you gotta be scrappy"
+subtitle: "How to sprint into the unknown future w/o tripping"
 date: 2026-03-14
 ---
 
