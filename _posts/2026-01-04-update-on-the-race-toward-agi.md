@@ -38,4 +38,3 @@ So ASI would be to humans as humans are to ants. It's not just sci-fi anymore. M
 
 Recommended reading list on next steps in AGI/ASI development: Life 3.0 (Max Tegmark), Superintelligence (Nick Bostrom), AI 2027 (Daniel Kokotajlo et al)
 
-*I chose not to use AI to write this post, just because that would have been a bit too ironic.
