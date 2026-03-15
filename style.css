@@ -5,10 +5,10 @@
 :root {
   --bg: #F7F6F3;
   --text: #1A1A1A;
-  --text-light: #4A4A4A;
+  --text-light: #3A3A3A;
   --text-faint: #888888;
-  --accent: #1B3A4B;
-  --accent-hover: #2A5F7A;
+  --accent: #1A1A1A;
+  --accent-hover: #555555;
   --rule: #DCDAD5;
   --rule-light: #E9E7E3;
 }
@@ -43,15 +43,14 @@ body {
 /* Header */
 .site-header {
   padding: 3rem 0 2rem;
-  border-bottom: 2px solid var(--accent);
+  border-bottom: 2px solid var(--text);
   margin-bottom: 2.5rem;
 }
 
 .site-title {
-  font-family: 'Fraunces', Georgia, serif;
   font-weight: 700;
   font-size: 1.7rem;
-  color: var(--accent);
+  color: var(--text);
   text-decoration: none;
   letter-spacing: -0.02em;
   display: block;
@@ -63,7 +62,7 @@ body {
   font-size: 0.9rem;
   color: var(--text-light);
   margin-top: 0.35rem;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -101,7 +100,6 @@ body {
 }
 
 .post-list .post-link {
-  font-family: 'Fraunces', Georgia, serif;
   font-weight: 600;
   font-size: 1.35rem;
   color: var(--text);
@@ -112,7 +110,7 @@ body {
   transition: color 0.2s ease;
 }
 
-.post-list .post-link:hover { color: var(--accent); }
+.post-list .post-link:hover { color: var(--accent-hover); }
 
 .post-list .post-summary {
   font-size: 0.9rem;
@@ -125,7 +123,7 @@ body {
 
 .post-list .post-tags-inline .tag {
   font-size: 0.7rem;
-  color: var(--accent);
+  color: var(--text-faint);
   text-transform: lowercase;
   letter-spacing: 0.04em;
   margin-right: 0.6rem;
@@ -149,20 +147,19 @@ body {
 
 .post-tags .tag {
   font-size: 0.7rem;
-  color: var(--accent);
+  color: var(--text);
   text-transform: lowercase;
   letter-spacing: 0.04em;
   margin-right: 0.6rem;
   font-weight: 500;
   background: transparent;
-  border: 1px solid var(--accent);
+  border: 1px solid var(--rule);
   padding: 0.15em 0.5em;
   border-radius: 3px;
   display: inline-block;
 }
 
 .post-title {
-  font-family: 'Fraunces', Georgia, serif;
   font-weight: 700;
   font-size: 2.2rem;
   line-height: 1.15;
@@ -183,12 +180,11 @@ body {
 .post-body p { margin-bottom: 1.4rem; }
 
 .post-body h2 {
-  font-family: 'Fraunces', Georgia, serif;
   font-weight: 600;
   font-size: 1.3rem;
   margin-top: 2.2rem;
   margin-bottom: 0.8rem;
-  color: var(--accent);
+  color: var(--text);
 }
 
 .post-body ul, .post-body ol { margin-bottom: 1.4rem; padding-left: 1.4rem; }
@@ -197,7 +193,7 @@ body {
 .post-body strong { font-weight: 500; color: var(--text); }
 
 .post-body blockquote {
-  border-left: 3px solid var(--accent);
+  border-left: 3px solid var(--text);
   padding-left: 1.2rem;
   margin: 1.6rem 0;
   color: var(--text-light);
@@ -212,7 +208,7 @@ body {
 
 .back-link {
   font-size: 0.88rem;
-  color: var(--accent);
+  color: var(--text);
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s ease;
@@ -224,7 +220,7 @@ body {
 .site-footer {
   margin-top: auto;
   padding: 2.5rem 0;
-  border-top: 2px solid var(--accent);
+  border-top: 2px solid var(--text);
 }
 
 .site-footer p {
