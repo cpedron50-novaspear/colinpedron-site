@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Personal Traits for Resilience in the AI Era"
-subtitle: "Three priorities for staying sturdy in the weird world of 2026."
 date: 2026-01-31
 tags: []
 ---
