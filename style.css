@@ -64,7 +64,7 @@ body {
   color: var(--text-light);
   margin-top: 0.35rem;
   font-weight: 300;
-  font-style: italic;
+  font-style: normal;
 }
 
 /* Blog Index */
