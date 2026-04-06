@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The foggy years"
-subtitle: "We may look back on this period as just the beginning"
+subtitle: "We may look back on this period of AI transformation as just the beginning"
 date: 2026-04-05
 ---
 
