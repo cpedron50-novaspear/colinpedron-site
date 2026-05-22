@@ -1,7 +1,7 @@
 title: "Colin's AI Blog"
 description: "Notes on my evolving thought process around the use of AI in our weird new world. I used AI to design this website (which was pretty fun), but the blog posts are 100% written by me. Call me old school, I guess."
 url: "https://colinpedron.com"
-default_image: /assets/images/site-default.jpg
+default_image: /assets/images/site-default.png
 baseurl: ""
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title/
