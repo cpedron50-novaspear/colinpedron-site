@@ -13,7 +13,7 @@ We've all received stuff like this in the past year or so: Emails that are grand
 
 We all have access to AI models, so an email that amounts to just some more AI spam invalidates the point of people emailing one another in the first place. We send emails to convey specific knowledge, not to just repeat what the other person could have discovered by asking their own AI model instead of emailing. 
 
-To be clear: AI-powered email review and drafting is a powerful and useful toolset. But seriously, I think the modern workforce could benefit from cutting back on the size & quantity of AI-generated emails by like 75%. Let's work together to make authentic ideas and writing cool again. Okay rant complete, moving on.
+To be clear: AI-powered email review and drafting is a powerful and useful toolset. But seriously, I think the modern workforce could benefit from cutting back on the size & quantity of AI-generated emails by like 75%. Let's work together to make authentic ideas and writing cool again.
 
 **2. Outsourced thinking:**
 
