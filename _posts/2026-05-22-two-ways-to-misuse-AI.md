@@ -9,9 +9,9 @@ AI is a multi-tool and can be used almost any way you see fit. Given the mind-bo
 
 **1. Workslop:**
 
-We've all received stuff like this in the past year or so: Emails that are grandiose in scale and 5 paragraphs longer than the situation would require, attempting to inflate the perceived intelligence of the sender. Also riddled with all kinds of tells indicating 100% AI authorship with no human review: em-dashes, weird phrasing, etc. Not a good look, not helpful to the recipient, and ultimately bad for the brand of the sender.
+We've all received stuff like this in the past year or so: Emails that are grandiose in scale and 5 paragraphs longer than the situation would require. Also riddled with all kinds of tells indicating 100% AI authorship with no human review: em-dashes, weird phrasing, etc. Not a good look, not helpful to the recipient, and ultimately bad for the brand of the sender.
 
-We all have access to AI models, so an email that amounts to just some more AI spam invalidates the point of people emailing one another in the first place. We send emails to convey specific knowledge, not to just repeat what the other person could have discovered by asking their own AI model instead of emailing. Seriously, I think the modern workforce could benefit from cutting back on the size & quantity of AI-generated emails by like 90%. Okay rant complete, moving on:
+We all have access to AI models, so an email that amounts to just some more AI spam invalidates the point of people emailing one another in the first place. We send emails to convey specific knowledge, not to just repeat what the other person could have discovered by asking their own AI model instead of emailing. To be clear: AI-powered email review and drafting is a powerful and useful toolset. But seriously, I think the modern workforce could benefit from cutting back on the size & quantity of AI-generated emails by like 75%. Let's work together to make authentic ideas and writing cool again. Okay rant complete, moving on.
 
 **2. Outsourced thinking:**
 
