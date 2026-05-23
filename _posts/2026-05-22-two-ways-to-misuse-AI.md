@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Two ways to misuse the multi-tool"
+title: "Two ways to misuse AI"
 subtitle: "Workslop and outsourced thinking weaken the people who depend on them"
 date: 2026-05-22
 ---
